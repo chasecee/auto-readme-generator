@@ -1,8 +1,14 @@
 # Automatic README Generator
 
-⚠️ **WARNING: This README is automatically generated and may be overwritten.** ⚠️
+⚠️ **WARNING: This tool by default will overwrite your README.md file. Use args ** ⚠️
 
 This tool automatically generates a README.md file for your project using the Claude API. It can run as a pre-commit hook or be executed manually, ensuring your README is always up-to-date with your project structure.
+
+To specify a custom output file:
+
+```
+python generate_readme.py --output README.md
+```
 
 ## Features
 
